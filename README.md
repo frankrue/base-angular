@@ -8,6 +8,7 @@ this one suits our particular needs.
 ## TL;DR
 
 Get it going.
+
 1. Clone the git repository in your favorite manner
 2. `npm install` to get all the goods
 3. `npm install -g gulp` (if you don't already have Gulp globally)
