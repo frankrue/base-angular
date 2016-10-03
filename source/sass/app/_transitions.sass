@@ -1,0 +1,13 @@
+[ui-view]
+  &.ng-enter
+    position: absolute
+    transition: 0.5s ease-out opacity
+    opacity: 0
+    &.ng-enter-active
+      opacity: 1
+  &.ng-leave
+    position: absolute
+    transition: 0.5s ease-out opacity
+    opacity: 1
+    &.ng-leave-active
+      opacity: 0

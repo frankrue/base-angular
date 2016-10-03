@@ -1,0 +1,12 @@
+# obvious stuff
+node_modules
+
+# project-specific stuff
+.tmp/
+build/
+
+# copy these dynamically so it's always the latest
+public/fonts/font-awesome
+
+# mac-specific stuff
+.DS_Store

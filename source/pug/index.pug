@@ -1,0 +1,21 @@
+doctype html
+html
+  head
+    title Base Angular
+    link(href="css/app.css" rel="stylesheet")
+
+  body
+
+    nav.navbar.navbar-inverse.navbar-fixed-top
+      .container-fluid
+        .navbar-header
+          a.navbar-brand(ui-sref="dashboard") Base Angular
+        ul.navbar-nav.nav
+          li(ui-sref-active="active"): a(ui-sref="about") About
+          li(ui-sref-active="active"): a(ui-sref="services") Services
+        ul.navbar-right.navbar-nav.nav
+          li(ui-sref-active="active"): a(ui-sref="preferences"): i.fa.fa-gear
+
+    div(ui-view)
+
+    script(src="js/app.bundle.js")
