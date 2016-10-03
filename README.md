@@ -9,11 +9,10 @@ this one suits our particular needs.
 
 Get it going.
 1. Clone the git repository in your favorite manner
-2. ```npm install``` to get all the goods
-3. ```npm install -g gulp``` (if you don't already have Gulp globally)
-4. ```gulp``` to crack open a browser, pointed to `localhost:3000` while you develop
-5. Open (Atom[https://atom.io]), (Sublime[https://www.sublimetext.com]),
-   (VIM[http://www.vim.org/download.php]), etc. and enjoy
+2. `npm install` to get all the goods
+3. `npm install -g gulp` (if you don't already have Gulp globally)
+4. `gulp` to crack open a browser, pointed to `localhost:3000` while you develop
+5. Open (Atom[https://atom.io]), (Sublime[https://www.sublimetext.com]), (VIM[http://www.vim.org/download.php]), etc. and enjoy
 6. `gulp build` to create an uglified/minified version in a `build` folder
 
 ## Source Code Languages
