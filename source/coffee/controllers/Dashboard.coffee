@@ -2,6 +2,7 @@ module.exports = (angular) ->
 
   name = 'Dashboard'
   factory = (DefaultsService, $state) ->
+    "ngInject"
     return
 
   ################################################################################
@@ -12,6 +13,7 @@ module.exports = (angular) ->
   angular.module moduleName, ['app.core']
     .controller "#{name}Controller", factory
     .config ($stateProvider) ->
+      "ngInject"
       $stateProvider.state camelCaseName,
         url: "/"
         templateUrl: "views/#{camelCaseName}.html"

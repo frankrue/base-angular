@@ -8,8 +8,10 @@ module.exports = (angular) ->
       $stateProvider
       $urlRouterProvider
     ) ->
+      "ngInject"
 
       @$get = ($state) ->
+        "ngInject"
 
         configureStates = (states, otherwisePath) ->
           $stateProvider.state state.state, state.config for state in states

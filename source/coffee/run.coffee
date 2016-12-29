@@ -4,6 +4,7 @@ module.exports = (angular) ->
     .run (
       $rootScope
     ) ->
+      "ngInject"
 
       # set a $rootScope var
       $rootScope.myObject =
